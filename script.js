@@ -85,7 +85,7 @@ if (entry.isIntersecting) {
 });
 },
 {
-threshold:1,
+threshold:0.5,
 }
 );
 document.querySelectorAll('.animate-on-scroll').forEach((el,index) => {

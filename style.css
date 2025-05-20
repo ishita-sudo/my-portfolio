@@ -56,47 +56,7 @@ section {
     justify-content: center;
     padding-left: 30px;
 }
-.one>h1{
-    animation: slide 0.7s 1;
-}
-@keyframes slide {
-    from{
-        transform: translateX(-70px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-.one>h2{
-    animation: slide2 0.8s 1;
-    animation-delay: 0.3s;
-}
-@keyframes slide2 {
-    from{
-        transform: translateY(20px);
-        opacity: 0;
-    }
-    to{
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-.one>p{
-    animation: slide3 0.8s 1;
-    animation-delay: 0.5s;
-}
-@keyframes slide3 {
-    from{
-        transform: translateX(20px);
-        opacity: 0;
-    }
-    to{
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
+
 .two {
     background-color: var(--second-color);
 }
